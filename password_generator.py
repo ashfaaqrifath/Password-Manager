@@ -1,9 +1,9 @@
+import secrets
+import string
+
 import colorama
 from colorama import Fore, Back
 colorama.init(autoreset=True)
-
-import secrets
-import string
 
 print(Fore.BLACK + Back.YELLOW + " PASSWORD MANAGER ")
 
