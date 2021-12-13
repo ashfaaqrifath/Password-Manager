@@ -13,9 +13,9 @@ print(Fore.BLACK + Back.YELLOW + voice1)
 engine = pyttsx3.init()
 engine.say(voice1)
 engine.runAndWait()
-#the pyttsx3 module reads out all the outputs in this program (text to speech) 
+# the pyttsx3 module reads out all the outputs in this program (text to speech)
 
-#asks the user if they need to generate or add a new password
+# asks the user if they need to generate or add a new password
 pass_option = input("Add new or generate password (a/g): ")
 
 
@@ -40,7 +40,7 @@ if pass_option.lower() == "a":
         engine = pyttsx3.init()
         engine.say(voice3)
         engine.runAndWait()
-        
+
     # takes the file path the user wants as an input
     choose_loc = input("Save to default location or custom location (d/c): ")
 
@@ -95,21 +95,25 @@ elif pass_option.lower() == "g":
         password += secrets.choice(special_chars)
         if (any(c.islower() for c in password) and any(c.isupper()
         for c in password) and sum(c.isdigit() for c in password) >= 4):
-            print(f"Password generated for {name}", ':', password)
+            voice8 = f"Password generated for {name}"
+            print(voice8 , ':', password)
+            engine = pyttsx3.init()
+            engine.say(voice8)
+            engine.runAndWait()
 
             strength = len(password)
             if strength > 14:
-                voice8 = " Your password is strong "
-                print(Fore.BLACK + Back.GREEN + voice8)
+                voice9 = " Your password is strong "
+                print(Fore.BLACK + Back.GREEN + voice9)
                 engine = pyttsx3.init()
-                engine.say(voice8)
+                engine.say(voice9)
                 engine.runAndWait()
 
             elif strength < 14:
-                voice9 = " Password should be stronger "
-                print(Fore.BLACK + Back.RED + voice9)
+                voice10 = " Password should be stronger "
+                print(Fore.BLACK + Back.RED + voice10)
                 engine = pyttsx3.init()
-                engine.say(voice9)
+                engine.say(voice10)
                 engine.runAndWait()
 
             need_save = input("Do you want to save this password? (y/n): ")
@@ -121,10 +125,10 @@ elif pass_option.lower() == "g":
                 print("---------------")
 
             else:
-                voice10 = " INVALID OPTION "
-                print(Fore.BLACK + Back.RED + voice10)
+                voice11 = " INVALID OPTION "
+                print(Fore.BLACK + Back.RED + voice11)
                 engine = pyttsx3.init()
-                engine.say(voice10)
+                engine.say(voice11)
                 engine.runAndWait()
             break
 
@@ -135,17 +139,17 @@ elif pass_option.lower() == "g":
         saving.write(f"Generated password for {name}: ")
         saving.write(password)
         saving.close()
-        voice11 = "Password saved"
-        print(Fore.GREEN + voice11)
+        voice12 = "Password saved"
+        print(Fore.GREEN + voice12)
         engine = pyttsx3.init()
-        engine.say(voice11)
+        engine.say(voice12)
         engine.runAndWait()
 
     elif choose_loc.lower() == "c":
-        voice12 = " Enter correct file path "
-        print(Fore.BLACK + Back.YELLOW + voice12)
+        voice13 = " Enter correct file path "
+        print(Fore.BLACK + Back.YELLOW + voice13)
         engine = pyttsx3.init()
-        engine.say(voice12)
+        engine.say(voice13)
         engine.runAndWait()
 
         save_path = input("Enter file path: ")
@@ -154,22 +158,22 @@ elif pass_option.lower() == "g":
         gen_pass.write(f"Saved password for {name}: ")
         gen_pass.write(password)
         gen_pass.close()
-        voice13 = "Password saved"
-        print(Fore.GREEN + voice13)
-        engine = pyttsx3.init()
-        engine.say(voice13)
-        engine.runAndWait()
-
-    else:
-        voice14 = " INVALID OPTION "
-        print(Fore.BLACK + Back.RED + voice14)
+        voice14 = "Password saved"
+        print(Fore.GREEN + voice14)
         engine = pyttsx3.init()
         engine.say(voice14)
         engine.runAndWait()
 
+    else:
+        voice15 = " INVALID OPTION "
+        print(Fore.BLACK + Back.RED + voice15)
+        engine = pyttsx3.init()
+        engine.say(voice15)
+        engine.runAndWait()
+
 else:
-    voice15 = " INVALID OPTION "
-    print(Fore.BLACK + Back.RED + voice15)
+    voice16 = " INVALID OPTION "
+    print(Fore.BLACK + Back.RED + voice16)
     engine = pyttsx3.init()
-    engine.say(voice15)
+    engine.say(voice16)
     engine.runAndWait()
