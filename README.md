@@ -8,7 +8,7 @@ Generates cryptographically secure passwords and lets the user add their own pas
 - [@ashfaaqrfth](https://ashfaaq.epizy.com/)
 
 
-## Imported
+## Installation
 * String
 ```
   pip install string
