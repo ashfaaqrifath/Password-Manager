@@ -5,7 +5,7 @@ Generates cryptographically secure passwords and lets the user add their own pas
 
 ## Coded by
 
-- [@ashfaaqrfth](https://ashfaaq.epizy.com/)
+- [@ashfaaqrifath](https://ashfaaq.epizy.com/)
 
 
 ## Installation
