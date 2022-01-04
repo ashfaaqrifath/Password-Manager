@@ -40,4 +40,4 @@ Generates cryptographically secure passwords and lets the user add their own pas
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)  Copyright © 2022 Ashfaaq Rifath
 ##
-![Logo](https://ashfaaqrfth.github.io/site_logo.png)
+![Logo](https://ashfaaqrifath.github.io/site_logo.png)
