@@ -7,7 +7,7 @@ Generates cryptographically secure passwords and lets the user add their own pas
 
 - [ashfaaqrifath](https://github.com/ashfaaqrifath/)
 
-## Installation
+## Modules used
 * String
 ```
   pip install string
