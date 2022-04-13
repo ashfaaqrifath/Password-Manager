@@ -1,42 +1,52 @@
 # Password-Manager
 
-Generates cryptographically secure passwords and lets the user add their own passwords and save it in a desired folder. This program uses the secrets module availabe in python 3.6 and above. The pyttsx3 module reads out all the outputs produced by this program.
+Generates cryptographically secure passwords and lets the user add their own passwords and save it in a desired folder. This program uses the secrets module availabe in python 3.6 and above.
 
 
-## Coded by💻
+## Authors
 
-- [ashfaaqrifath](https://github.com/ashfaaqrifath/)
+- [@ashfaaqrifath](https://www.github.com/ashfaaqrifath)
 
-## Modules used
-* String
-```
-  pip install string
-```
 
+## Libraries Used
 * Secrets
 ```
   pip install secrets
 ```
+
+* Strings
+```
+  pip install strings
+```
+
 * Colorama
 ```
   pip install colorama
 ```
-* os
+
+* Tkinter (Built-in)
 ```
-  pip install os
+  pip install tkinter
 ```
-* Pyttsx3
-```
-  pip install pyttsx3
-```
+## Features
+
+- Cryptographically secure passwords
+- Encryption / Decryption
+- Password strngth indicator
+
+
 ## Badges
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 ![MIT License](https://img.shields.io/github/followers/ashfaaqrifath?style=social)
 ![MIT License](https://img.shields.io/github/stars/ashfaaqrifath/Password-Manager?style=social)
 
+
+
 ## License
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)  Copyright © 2022 Ashfaaq Rifath
+Copyright © 2022 Ashfaaq Rifath [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) 
+
+
 ##
-![Logo](https://ashfaaqrifath.github.io/aq%20logo.png)
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
