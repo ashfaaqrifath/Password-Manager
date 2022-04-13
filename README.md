@@ -32,7 +32,7 @@ Generates cryptographically secure passwords and lets the user add their own pas
 
 - Cryptographically secure passwords
 - Encryption / Decryption
-- Password strngth indicator
+- Password strength indicator
 
 
 ## Badges
