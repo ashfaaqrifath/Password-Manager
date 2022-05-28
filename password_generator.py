@@ -177,3 +177,8 @@ else:
     engine = pyttsx3.init()
     engine.say(voice16)
     engine.runAndWait()
+    
+    
+    
+    
+# <<< Copyright (c) 2022 Ashfaaq Rifath - Password-Manager v1.2.0 >>>
